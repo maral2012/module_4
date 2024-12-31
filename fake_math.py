@@ -1,7 +1,6 @@
-def divide (first,second):
+def divide(first, second):
     if second == 0:
-        print('Ошибка')
+        result = 'Ошибка'
     else:
-        return first / second
-
-divide(3,1)
+        result = first / second
+    return result
